@@ -1,4 +1,4 @@
-package net.macdidi.Jigsaw-Puzzle;
+package net.macdidi.jigsaw_puzzle;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
