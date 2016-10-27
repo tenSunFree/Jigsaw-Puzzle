@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.macdidi.Jigsaw_Puzzle.MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/g_04"
+        android:orientation="horizontal"
+        android:layout_height="150dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:src="@drawable/f_05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/g_01"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FF8000"
+            android:text="華梵三劍客"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"/>
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/e_01"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/e_02"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/e_03"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_marginTop="40dp"
+        android:rowCount="3"
+        android:columnCount="5"
+        android:id="@+id/gl_main_game"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+</LinearLayout>
