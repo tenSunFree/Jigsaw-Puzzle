@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.macdidi.Jigsaw_Puzzle.MainActivity">
+    tools:context="net.macdidi.jigsaw_puzzle.MainActivity">
 
     <LinearLayout
         android:background="@drawable/g_04"
