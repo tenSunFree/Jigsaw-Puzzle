@@ -285,7 +285,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(isGameOver) {
-            Toast.makeText(this, "拼圖完成, 你太棒了 !", Toast.LENGTH_SHORT).show ();
+            Toast.makeText(this, ""~ Success ~"", Toast.LENGTH_SHORT).show ();
         }
 
     }
